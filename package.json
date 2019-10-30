@@ -1,0 +1,17 @@
+{
+  "name": "my_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jenny kats",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.559.0",
+    "js-base64": "^2.5.1",
+    "twit": "^2.2.11"
+  }
+}
