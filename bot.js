@@ -2,6 +2,7 @@ var Twit = require('twit');
 var fs  = require('fs');
 const https = require('https');
 const URL = require('url').Url;
+require('dotenv').config();
 
 
 var T = new Twit({
@@ -91,6 +92,5 @@ function loader () {
  }
 
 
-// setInterval(loader, 240*60*1000);
+setInterval(loader, 240*60*1000);
 // loader();
-setInterval(loader, 1000*60*30);
