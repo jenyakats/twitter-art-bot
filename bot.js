@@ -44,7 +44,7 @@ function loader () {
             var title = json_data.title
             var date = json_data.objectDate
 
-              if ((imageURL !== undefined && title !== undefined) && (imageURL !== '')) {
+              if ((imageURL !== undefined && title !== undefined) && (imageURL !== '') && (date !== '')) {
                 var details = {
                   imageURL: imageURL,
                   title: title,
@@ -91,5 +91,6 @@ function loader () {
  }
 
 
-setInterval(loader, 240*60*1000);
+// setInterval(loader, 240*60*1000);
 // loader();
+setInterval(loader, 1000*60*30);
