@@ -92,5 +92,5 @@ function loader () {
  }
 
 
-setInterval(loader, 240*60*1000);
-// loader();
+// setInterval(loader, 240*60*1000);
+loader();

@@ -10,9 +10,10 @@
   "author": "jenny kats",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.559.0",
     "dotenv": "^8.2.0",
-    "js-base64": "^2.5.1",
     "twit": "^2.2.11"
+  },
+  "engines": {
+    "node": "8.11.1"
   }
 }
